@@ -6,4 +6,5 @@
 - VDG419
 - Laura-986
 - Rafael-Takematsu
+- guiSPCN
 ### Confira o [Portfólio Gitthers parte 1!](https://github.com/iago511/Portifolio_gitthers)
