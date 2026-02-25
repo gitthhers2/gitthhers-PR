@@ -3,45 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de Página HTML</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        .btn {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            text-align: center;
-            display: inline-block;
-        }
-        .btn:hover {
-            background-color: #45a049;
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Página Inicial</title>
 </head>
 <body>
 
@@ -64,10 +30,10 @@
         </ul>
     </section>
 
-    <button class="btn">Clique aqui para aprender mais!</button>
-    <button class="btn"><a href="travaLingua.html">travaLingua</a></button>
+    <a href="palavra.html"><button class="btn">Clique aqui para aprender mais!</button></a>
+    <a href="travaLingua.html"><button class="btn">Trava Lingua</button></a>
 
-    <form >
+    <form>
         <label for="email">Email: </label>
         <input type="email" name="email">
         <label for="nome">Nome: </label>
@@ -75,7 +41,7 @@
         <label for="mensagem">Mensagem:</label>
         <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea>  
         
-        <button type="submit">Enviar</button>
+        <button class="btn" type="submit">Enviar</button>
     </form>
 </main>
 
